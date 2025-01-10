@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy a simple HTML file into the container
-COPY a/b/c/d/ index.html /usr/share/nginx/html/index.html
+COPY index.html /usr/share/nginx/html/index.html
 
 # Expose port 80
 EXPOSE 80
